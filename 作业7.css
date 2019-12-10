@@ -1,0 +1,97 @@
+/*
+* @Author: 16284
+* @Date:   2019-12-10 15:23:20
+* @Last Modified by:   16284
+* @Last Modified time: 2019-12-10 15:26:30
+*/
+*{
+			padding: 0px;
+			margin: 0px;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.bo{
+			width: 1200px;
+			height: 380px;
+			/* border: 1px solid red; */
+			margin: 0px auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.pans{
+			width: 8400px;
+			position: relative;
+			left: -1200px;
+		}
+		.pan{
+			width:1200px;
+			height: 397px;
+			overflow:hidden;
+			float: left;
+		
+		}
+		.bo>span{
+			display:block;
+			width: 30px;
+			height: 50px;
+			text-align:center;
+			cursor: pointer;
+			color:white;
+			top: 175px;
+			line-height: 50px;
+/* 			background:rgb(255,0,0); */
+			background: red;
+			position: absolute;
+			font-size: 30px;
+			opacity:0; 
+		}
+		#left{
+			left: 30px;
+
+		}
+		#right{
+			right: 30px;
+		}
+		.ull{
+			position:absolute;
+			left: 500px;
+			bottom:20px;
+		}
+		.ull>li{
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: #ccc;
+			cursor: pointer;
+			margin: 0 10px;
+			border-radius: 50%;
+		}
+		.ull .action{
+			background: red;
+			color: white;
+		}
+		.laba{
+			height:10px;
+		}
+		.labaa{
+			padding-left:250px;
+			padding-right:250px;
+			background:#ccc;
+			position:relative;
+			overflow: hidden;
+		}
+		.tishi{
+			display:inline-block;
+			width: 1000px;
+			overflow:hidden;
+		}
+		.labaaa{
+			font-size:10px;
+			color:red;
+			display: inline-block;
+			line-height:20px;
+			float:right;
+			position:relative;
+			right: -100px;
+		}
